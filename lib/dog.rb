@@ -5,11 +5,7 @@ class Dog
 		@breed = "Mutt"
 	end
 
-	define name = (name)
-		@name = name
-	end
+  attr_accessor :name
+  attr_accessor :breed
 
-	Define name
-		@name
-	end
 end
